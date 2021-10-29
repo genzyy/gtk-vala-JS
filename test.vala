@@ -10,15 +10,24 @@ int main (string[] args) {
     // the upper line can also be written as
     // Gtk.Window window = new Gtk.Window().
     // the recommended way.
+    
+    // window title.
     window.title = "Hello World!";
+
+    // window border width.
     window.border_width = 10;
     //  window.border_radius = 10;
+    
+    // default window position when the app is opened.
     window.window_position = Gtk.WindowPosition.CENTER;
     window.set_default_size(350, 80);
 
+    // while quiting the app
+    // bind the Gtk.main_quit function.
     window.destroy.connect(Gtk.main_quit);
 
 
+    // and then run the application.
     window.show_all();
 
     Gtk.main();
