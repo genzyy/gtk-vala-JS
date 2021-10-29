@@ -1,5 +1,6 @@
 // main application file to create a window application.
-
+// this stores the basic data about the application
+// we can also say that it holds the meta data of the app.
 public class Application: Gtk.Application {
     public Application() {
         Object(

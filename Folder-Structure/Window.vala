@@ -14,7 +14,7 @@ namespace MyApp {
             window_position = Gtk.WindowPosition.CENTER;
             set_default_size(350, 80);
             show_all();
-    }
+        }
     }
 
     
